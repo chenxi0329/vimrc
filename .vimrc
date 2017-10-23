@@ -4,7 +4,6 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 filetype off
-filetype plugin indent on
 set nocompatible
 set modelines=0
 set tabstop=4
@@ -49,5 +48,3 @@ nnoremap <C-l> <C-w>l
 nnoremap <tab> %
 vnoremap <tab> %
 autocmd vimenter * NERDTree"for nerd tree
-
-
